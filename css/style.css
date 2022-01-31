@@ -22,6 +22,10 @@
   background: var(--bg--dark);
   color: #ffff;
 }
+.colorSection2{
+  background: var(--bg--ligt);
+  color: rgb(0, 0, 0);
+}
 h1{
   font-family: var(--body-fontsM);
 }
