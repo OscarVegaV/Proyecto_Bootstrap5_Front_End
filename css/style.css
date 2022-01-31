@@ -1,0 +1,50 @@
+:root{
+  --body-fontS:'Montserrat', sans-serif;
+  --body-fontsM:'Roboto Slab', serif;
+  --bg--dark: #342b27;
+  --bg--ligt:#FFFFFF;
+  --bg--ligt--dark: #F8F8F7;
+  --golden:#BF8D60;
+  --skin:#ECC8AD;
+}
+.SectionNavbar{
+  font-family: var(--body-fontS);
+  font-weight: 600;
+  background: var(--bg--dark);
+}
+.SectionNavbar .container .collapse .navbar-nav .nav-item a {
+  color: var(--bg--ligt);
+}
+.SectionNavbar .container .collapse .navbar-nav .nav-item a:hover {
+  color: var(--golden);
+}
+.colorSection{
+  background: var(--bg--dark);
+  color: #ffff;
+}
+h1{
+  font-family: var(--body-fontsM);
+}
+p{
+  font-family: var(--body-fontS);
+  font-weight: 600;
+}
+.imgHeader { 
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
+  height: 500px;
+}
+.btn{                                 /*agregando caracteristicas a todos las clases ***btn**botones***/
+  font-family: var(--body-fontS);
+  font-weight: 600;
+  margin-top: 1rem;
+  display: inline-block;              /*que se vea en linea con los elementos q estan antes, en un solo bloque*/
+  padding: .9rem 3rem;
+  border-radius: 50px;
+  background: var(--skin);
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.btn:hover{                           /*todos los botones ban a tener esa clase*/
+  letter-spacing: .2rem;
+  text-shadow: 1px 1px var(--skin) ;
+}
