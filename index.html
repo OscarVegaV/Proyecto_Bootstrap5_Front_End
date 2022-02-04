@@ -7,8 +7,11 @@
   <title>Proyecto Pagina Bootstrap 5</title>
   <!-- link Bootstrap -->
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
   <!-- link Css -->
   <link rel="stylesheet" href="css/style.css">
+  <!--Font awesome cdn link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +19,7 @@
 </head>
 <body>
   <!-- Inicio Navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark SectionNavbar">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top SectionNavbar">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="img/logo.svg" alt="" height="55">
@@ -33,7 +36,7 @@
             <a class="nav-link active" aria-current="page" href="#ourPets">Our pets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#Help">To help the sheter</a>
+            <a class="nav-link active" aria-current="page" href="#help">To help the sheter</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#contact">Contacts</a>
@@ -47,9 +50,9 @@
   <div class="colorSection">  
     <div class="container">
       <div class="row ">
-        <div class="col-md-12 col-lg-4 pt-5">
+        <div class="col-md-12 col-lg-4">
           <div class="card border-0 colorSection ">
-            <div class="card-body ps-0 pt-5">
+            <div class="card-body pt-5">
               <h1>Not only people <br> Need a house</h1>
               <p class="card-text py-3">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Repellendus atque recusandae blanditiis<br> non  quaerat cumque nam itaque.</p>
               <div class="text-center py-3">
@@ -61,7 +64,7 @@
         <div class="col-lg-2"></div>
         <div class="col-md-12 col-lg-6">
           <div class="card border-0 colorSection">
-            <div class="card-body text-md-center text-lg-end pe-0 pt-5">
+            <div class="card-body text-md-center text-lg-end pe-0 pt-0">
               <img src="img/img-header.png" alt="" class="imgHeader">
             </div>
           </div>
@@ -71,7 +74,7 @@
   </div>
   <!-- Fin Header -->  
   <!-- Inicio About -->
-  <div class="colorSection2 pt-5" id="about">
+  <div class="colorSection2" id="about">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-lg-6">
@@ -94,6 +97,272 @@
     </div>
   </div>
   <!-- Fin About -->
+  <!-- Inicio Our Pets -->
+    <div class="container-fluid colorSection3" id="ourPets">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Our Friends who <br> are looking for house </h1>
+        </div>        
+      </div>
+    </div>
+    <!-- Inicio Carrusel -->  
+  <div class="container-fluid d-none d-md-block colorSection3">    
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner colorSection3">
+        <!-- slider1 -->
+        <div class="carousel-item active"> 
+          <div class="row justify-content-center">       
+            <!--card 1 -->
+            <div class="col-3 text-center">
+              <div class="card border-0">
+                <img src="img/carrousel-01.jpg" class="card-img-top mx-auto w-75" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title">Katrine</h5>
+                    <a href="#" class="btn btn2">learn More</a>
+                </div>
+              </div>           
+            </div>
+            <!--card 2 -->
+            <div class="col-3 text-center">
+              <div class="card border-0">
+                <img src="img/carrousel-02--626px.jpg" class="card-img-top mx-auto w-75" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title">Jennifer</h5>
+                  <a href="#" class="btn btn2">learn More</a>
+                </div>
+              </div>
+            </div>            
+            <!--card 3 -->
+            <div class="col-3 text-center">
+              <div class="card border-0" >
+                <img src="img/carrousel-03--626px.jpg" class="card-img-top mx-auto w-75" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title">Woody</h5>
+                  <a href="#" class="btn btn2">learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <!-- slider2 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center">       
+            <!-- sldr2 card 1 -->
+            <div class="col-3 text-center">
+              <div class="card border-0">
+                <img src="img/perroConGato.jfif" class="card-img-top mx-auto w-75 rounded-circle" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title h2">kity max</h1>
+                  <a href="#" class="btn btn2">learn More</a>
+                </div>
+              </div>           
+            </div>
+            <!--sldr2 card 2 -->
+            <div class="col-3 text-center">
+              <div class="card border-0">
+                <img src="img/carrousel-02--626px.jpg" class="card-img-top mx-auto w-75" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title">Jennifer</h5>
+                  <a href="#" class="btn btn2">learn More</a>
+                </div>
+              </div>
+            </div>            
+            <!--sldr2 card 3 -->
+            <div class="col-3 text-center">
+              <div class="card border-0" >
+                <img src="img/carrousel-03--626px.jpg" class="card-img-top mx-auto w-75" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title">Woody</h5>
+                  <a href="#" class="btn btn2">learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <!-- fin slider2 -->
+      </div>
+      <!-- controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="borde-icono"><i class="bi bi-arrow-left-short text-dark alturaIcono"></i></span>
+        <span class="visually-hidden ">Previous</span>
+      </button>
+      <!-- botton derecho -->
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="borde-icono"><i class="bi bi-arrow-right-short text-dark alturaIcono"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- Fin carrusel -->
+  <!-- solo se ve de md hacia abajo >768 -->
+  <div class="container-fluid d-block d-md-none colorSection3">
+    <div class="row justify-content-around g-1">
+      <!-- card1  -->
+      <div class="col-6 text-center">
+        <div class="card">
+          <img src="img/carrousel-01.jpg" class="card-img-top mx-auto w-75" alt="...">
+          <div class="card-body">
+            <h1 class="card-title">Katrine</h1>
+            <a href="#" class="btn btn2">learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- card2 -->
+      <div class="col-6 text-center">
+        <div class="card">
+          <img src="img/carrousel-02--626px.jpg" class="card-img-top mx-auto w-75" alt="...">
+          <div class="card-body">
+            <h1 class="card-title">Jennifer</h1>
+            <a href="#" class="btn btn2">learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- card3 -->
+      <div class="col-6 text-center">
+        <div class="card" >
+          <img src="img/carrousel-03--626px.jpg" class="card-img-top mx-auto w-75" alt="...">
+          <div class="card-body">
+            <h1 class="card-title">Woody</h1>
+            <a href="#" class="btn btn2">learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+  <!-- fin cards para md -->
+  <!-- boton get to know -->
+  <div class="colorSection3 py-5">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col">
+          <div class="text-center py-5">
+            <a href="#" class="btn" >Get to know the rest</a>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <!-- Inicio Help -->
+  <div class="colorSection2">
+    <div class="container" id="help">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Than you can help <br> our shelter </h1>
+        </div>        
+      </div>
+    </div>
+  </div>
+  <!-- Fin Help -->
+  <!-- Inicio icons -->
+  <div class="container mt-5">      
+    <div class="row justify-content-center">        
+      <!-- 1 -->
+      <div class="col text-center">
+        <div class="card border-0">
+          <div class="container-icon">
+            <i class="fas fa-shopping-bag"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Pet food</p>
+          </div>
+        </div>  
+      </div>      
+        <!-- 2 -->
+      <div class="col text-center">
+        <div class="card border-0">
+          <div class="container-icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Transportation</p>
+          </div>
+        </div>  
+      </div>             
+      <!-- 3 -->
+      <div class="col text-center">
+        <div class="card border-0">
+          <div class="container-icon">
+            <i class="fas fa-baseball-ball"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-text">toys</p>
+          </div>
+        </div>  
+      </div>
+      <!-- 4 -->
+      <div class="col text-center">
+        <div class="card border-0">
+          <div class="container-icon">
+            <i class="fas fa-bone"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Bowls and cups</p>
+          </div>
+        </div>  
+      </div>
+      <!-- 5 -->
+      <div class="col text-center">
+        <div class="card border-0">
+          <div class="container-icon">
+            <i class="fas fa-pump-soap"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Shampoo</p>
+          </div>
+        </div>  
+      </div> 
+      <!-- fin Cards 1 -->            
+    </div>
+    <!-- segunda fila -->
+    <div class="row g-0 pt-1">
+      <!-- 1 -->
+      <div class="col text-center">
+        <div class="card border-0">
+          <div class="container-icon">
+            <i class="fas fa-pills"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Vitamins</p>
+          </div>
+        </div>  
+      </div>      
+        <!-- 2 -->
+      <div class="col text-center">
+        <div class="card border-0">
+          <div class="container-icon">
+            <i class="fas fa-syringe"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Medicine</p>
+          </div>
+        </div>  
+      </div>             
+      <!-- 3 -->
+      <div class="col text-center">
+        <div class="card border-0">
+          <div class="container-icon">
+            <img src="/img/svg/collar.svg" alt="" width="60px">
+          </div>
+          <div class="card-body">
+            <p class="card-text">Collars/leases</p>
+          </div>
+        </div>  
+      </div>
+      <!-- 4 -->
+      <div class="col text-center">
+        <div class="card border-0">
+          <div class="container-icon">
+            <i class="fas fa-hotel"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Sleeping area</p>
+          </div>
+        </div>  
+      </div>
+      <!-- fin cards 2 -->
+    </div>
+  </div>
+  <!-- fin icons -->  
   <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>

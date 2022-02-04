@@ -21,9 +21,15 @@
 .colorSection{
   background: var(--bg--dark);
   color: #ffff;
+  padding-top: 4rem;
 }
 .colorSection2{
   background: var(--bg--ligt);
+  color: rgb(0, 0, 0);
+  padding-top: 7rem;
+}
+.colorSection3{
+  background: var(--bg--ligt--dark);
   color: rgb(0, 0, 0);
 }
 h1{
@@ -42,7 +48,7 @@ p{
   font-weight: 600;
   margin-top: 1rem;
   display: inline-block;              /*que se vea en linea con los elementos q estan antes, en un solo bloque*/
-  padding: .9rem 3rem;
+  padding: .9rem 2rem;
   border-radius: 50px;
   background: var(--skin);
   cursor: pointer;
@@ -51,4 +57,39 @@ p{
 .btn:hover{                           /*todos los botones ban a tener esa clase*/
   letter-spacing: .2rem;
   text-shadow: 1px 1px var(--skin) ;
+}
+.btn2{                                 /*agregando caracteristicas a todos las clases ***btn**botones***/
+  font-family: var(--body-fontS);
+  font-weight: 600;
+  margin-top: 1rem;
+  display: inline-block;              /*que se vea en linea con los elementos q estan antes, en un solo bloque*/
+  padding: .7rem 2rem;
+  border-radius: 50px;
+  background: var(--bg--ligt);
+  cursor: pointer;
+  border-color: var(--skin);
+}
+.btn2:hover:hover{                           /*todos los botones ban a tener esa clase*/
+  letter-spacing: .1.5rem;
+  text-shadow: 1px 1px var(--skin);
+  background: var(--skin);
+  border-color: var(--bg--dark);
+}
+#ourPets{
+  padding-top: 7rem;
+}
+.container-icon {
+font-size: 83px;
+color: var(--skin);
+}
+.borde-icono {
+  width: 50px;
+  border: solid 4px var(--skin);
+  border-radius: 50%;
+}
+.alturaIcono {
+  font-size: 30px !important;
+}
+.borde-icono:hover{
+  background: var(--skin);
 }
