@@ -93,3 +93,8 @@ color: var(--skin);
 .borde-icono:hover{
   background: var(--skin);
 }
+.contactFont{
+  font-family: var(--body-fontS);
+  font-weight: 600;
+  text-shadow: 1px 1px;
+}
