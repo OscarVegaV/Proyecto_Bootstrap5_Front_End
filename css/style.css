@@ -98,3 +98,6 @@ color: var(--skin);
   font-weight: 600;
   text-shadow: 1px 1px;
 }
+.colorFooter {
+  color: var(--golden);
+}
