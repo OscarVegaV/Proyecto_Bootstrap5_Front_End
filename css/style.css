@@ -32,7 +32,7 @@
   background: var(--bg--ligt--dark);
   color: rgb(0, 0, 0);
 }
-h1{
+h1,h2{
   font-family: var(--body-fontsM);
 }
 p{
@@ -41,7 +41,8 @@ p{
 }
 .imgHeader { 
   filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
-  height: 500px;
+  height: 450px;
+  margin-bottom: 2rem;
 }
 .btn{                                 /*agregando caracteristicas a todos las clases ***btn**botones***/
   font-family: var(--body-fontS);
@@ -100,4 +101,10 @@ color: var(--skin);
 }
 .colorFooter {
   color: var(--golden);
+}
+.colorTextfooter {
+  color: var(--golden);
+}
+.colorTextfooter :hover{
+  color: var(--bg--ligt--dark);
 }
